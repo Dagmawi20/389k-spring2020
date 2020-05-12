@@ -8,7 +8,7 @@ Date: May 11th, 2020
 
 Project Topic: Sneaker Review
 
-URL: http://103.283.293.13:3000/
+URL: https://git.heroku.com/final-project389k.git
 ---
 
 ### 1.Data Format
