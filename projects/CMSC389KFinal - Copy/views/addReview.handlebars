@@ -1,0 +1,25 @@
+
+ <form action='/shoe/review' method="POST" name="addShoes" enctype="application/x-www-form-urlencoded">
+        <div class="input-field">
+            <label>Shoes:</label>
+            <select name="shoeChoice">
+                {{#each data}}
+                <option value={{this.name}}>{{this.name}}</option>
+                {{/each}}
+            </select>
+        </div>
+        <div class="input-field">
+            <label>Your name:</label>
+            <input type="text" name="user" placeholder="John Smith">
+        </div>
+        <div class="input-field">
+            <label>Rating:</label>
+            <input type="number" name="rating" placeholder="5.00" min="0.00" max="5.00" step=".1" >
+        </div>
+        <div class="input-field">
+            <label>Comment:</label>
+            <input type="text" name="comment" placeholder="Enter text here" >
+        </div>
+        
+        <button class='submitter' type='submit'>Submit</button>
+    </form>

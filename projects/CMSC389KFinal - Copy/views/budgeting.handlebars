@@ -1,0 +1,13 @@
+<h1> You want to stay in style but are on a budget here are some shoes that are perfect for you!</h1>
+{{#each data}}
+
+<div class="boxed">
+    <img class="pictures" src={{this.image}}>
+    <h4>{{this.name}}</h4>
+    <h4> $ {{this.cost}}.00</h4>
+        <p>{{this.reviews}}
+        </p>
+    
+</div>
+
+{{/each}}
